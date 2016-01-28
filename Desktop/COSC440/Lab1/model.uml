@@ -129,6 +129,85 @@
     <ownedAttribute xmi:id="_EwG3AMOOEeWZ5sa5ki9kDQ" name="myMaze" type="_C9XjgMONEeWZ5sa5ki9kDQ"/>
     <ownedAttribute xmi:id="_MHuIUMOPEeWZ5sa5ki9kDQ" name="IterativeWalker"/>
     <ownedAttribute xmi:id="_NBlvkMOPEeWZ5sa5ki9kDQ" name="nextLoc" type="_bOmvQMOMEeWZ5sa5ki9kDQ"/>
+    <ownedAttribute xmi:id="_2bK4MMVCEeW-P4Pvh3lDiA" name="Set" type="_pbEM8MOXEeWZ5sa5ki9kDQ"/>
+    <ownedAttribute xmi:id="_8cikwMVCEeW-P4Pvh3lDiA" name="Class22" type="_8cPp0MVCEeW-P4Pvh3lDiA"/>
+    <ownedAttribute xmi:id="_NzaxAMVDEeW-P4Pvh3lDiA" name="IterativeWalker" type="_meR8kMRkEeWZ5sa5ki9kDQ"/>
+    <ownedAttribute xmi:id="_HsFJ4MVEEeW-P4Pvh3lDiA" name="SearchStrategy" type="_EPsikMVEEeW-P4Pvh3lDiA"/>
+    <ownedAttribute xmi:id="_bgqusMVEEeW-P4Pvh3lDiA" name="Stack" type="_WAWgwMVEEeW-P4Pvh3lDiA"/>
+    <ownedAttribute xmi:id="_h5yM4MVEEeW-P4Pvh3lDiA" name="IterativeWalker" type="_meR8kMRkEeWZ5sa5ki9kDQ"/>
+    <ownedAttribute xmi:id="_CJ3zoMVGEeW-P4Pvh3lDiA" name="GenericWalker" type="_MyAXQMOWEeWZ5sa5ki9kDQ"/>
+    <ownedAttribute xmi:id="_CNX-IMVHEeW-P4Pvh3lDiA" name="WalkerState" type="_Rem_YMONEeWZ5sa5ki9kDQ"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h9VassVFEeW-P4Pvh3lDiA" name="Operation_10"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_xOCkosVFEeW-P4Pvh3lDiA" name="Operation_3"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_msNvMsVGEeW-P4Pvh3lDiA" name="Operation_7"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Yfc5EsVHEeW-P4Pvh3lDiA" name="Operation_15"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hWXPYsVHEeW-P4Pvh3lDiA" name="Operation_9"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_026d4cVHEeW-P4Pvh3lDiA" name="Operation_5"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gEe7UMVIEeW-P4Pvh3lDiA" name="Operation_7"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_lrpYIsVIEeW-P4Pvh3lDiA" name="Operation_4"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tmypwcVIEeW-P4Pvh3lDiA" name="Operation_2"/>
+    <lifeline xmi:id="_h5yM4cVEEeW-P4Pvh3lDiA" name="IterativeWalker" represents="_h5yM4MVEEeW-P4Pvh3lDiA" coveredBy="_h9Vas8VFEeW-P4Pvh3lDiA _h9VatMVFEeW-P4Pvh3lDiA _h9VatcVFEeW-P4Pvh3lDiA _h9WBwMVFEeW-P4Pvh3lDiA _xODLsMVFEeW-P4Pvh3lDiA _026d48VHEeW-P4Pvh3lDiA _026d58VHEeW-P4Pvh3lDiA _gEe7UcVIEeW-P4Pvh3lDiA _lrpYI8VIEeW-P4Pvh3lDiA _tmypwsVIEeW-P4Pvh3lDiA"/>
+    <lifeline xmi:id="_RFPHEMVDEeW-P4Pvh3lDiA" name="beenThere" represents="_GcPX4MRuEeWZ5sa5ki9kDQ" coveredBy="_hWXPZMVHEeW-P4Pvh3lDiA _hWXPaMVHEeW-P4Pvh3lDiA _026d5MVHEeW-P4Pvh3lDiA _026d5sVHEeW-P4Pvh3lDiA _026d5cVHEeW-P4Pvh3lDiA _gEe7UsVIEeW-P4Pvh3lDiA _gEe7U8VIEeW-P4Pvh3lDiA _gEe7VMVIEeW-P4Pvh3lDiA"/>
+    <lifeline xmi:id="_HsFw8MVEEeW-P4Pvh3lDiA" name="searcher " represents="_HsFJ4MVEEeW-P4Pvh3lDiA" coveredBy="_xODLscVFEeW-P4Pvh3lDiA _xODLssVFEeW-P4Pvh3lDiA _xODLs8VFEeW-P4Pvh3lDiA _msNvNMVGEeW-P4Pvh3lDiA _msOWQ8VGEeW-P4Pvh3lDiA _lrpYJMVIEeW-P4Pvh3lDiA _lrpYJcVIEeW-P4Pvh3lDiA _lrpYJsVIEeW-P4Pvh3lDiA"/>
+    <lifeline xmi:id="_CJ3zocVGEeW-P4Pvh3lDiA" name="GenericWalker" represents="_CJ3zoMVGEeW-P4Pvh3lDiA" coveredBy="_b2Kys8VGEeW-P4Pvh3lDiA _msOWQMVGEeW-P4Pvh3lDiA _msOWQsVGEeW-P4Pvh3lDiA _msOWQcVGEeW-P4Pvh3lDiA _Yfc5FMVHEeW-P4Pvh3lDiA _Yfc5GMVHEeW-P4Pvh3lDiA _hWXPZcVHEeW-P4Pvh3lDiA _hWXPZ8VHEeW-P4Pvh3lDiA _hWXPZsVHEeW-P4Pvh3lDiA"/>
+    <lifeline xmi:id="_bgrVwMVEEeW-P4Pvh3lDiA" name="Stack" represents="_bgqusMVEEeW-P4Pvh3lDiA" coveredBy="_tmypw8VIEeW-P4Pvh3lDiA _tmypxMVIEeW-P4Pvh3lDiA _tmypxcVIEeW-P4Pvh3lDiA"/>
+    <lifeline xmi:id="_CNX-IcVHEeW-P4Pvh3lDiA" name="WalkerState" represents="_CNX-IMVHEeW-P4Pvh3lDiA" coveredBy="_Yfc5FcVHEeW-P4Pvh3lDiA _Yfc5F8VHEeW-P4Pvh3lDiA _Yfc5FsVHEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gEe7UcVIEeW-P4Pvh3lDiA" name="beenThere_sender" covered="_h5yM4cVEEeW-P4Pvh3lDiA" message="_gEeUQMVIEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gEe7UsVIEeW-P4Pvh3lDiA" name="beenThere_receiver" covered="_RFPHEMVDEeW-P4Pvh3lDiA" message="_gEeUQMVIEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_gEe7U8VIEeW-P4Pvh3lDiA" name="Operation_7" covered="_RFPHEMVDEeW-P4Pvh3lDiA" finish="_gEe7VMVIEeW-P4Pvh3lDiA" start="_gEe7UsVIEeW-P4Pvh3lDiA" behavior="_gEe7UMVIEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_gEe7VMVIEeW-P4Pvh3lDiA" name="Operation_7_finish" covered="_RFPHEMVDEeW-P4Pvh3lDiA" execution="_gEe7U8VIEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lrpYI8VIEeW-P4Pvh3lDiA" name="init_sender" covered="_h5yM4cVEEeW-P4Pvh3lDiA" message="_lrpYIcVIEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lrpYJMVIEeW-P4Pvh3lDiA" name="init_receiver" covered="_HsFw8MVEEeW-P4Pvh3lDiA" message="_lrpYIcVIEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_lrpYJcVIEeW-P4Pvh3lDiA" name="Operation_4" covered="_HsFw8MVEEeW-P4Pvh3lDiA" finish="_lrpYJsVIEeW-P4Pvh3lDiA" start="_lrpYJMVIEeW-P4Pvh3lDiA" behavior="_lrpYIsVIEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_lrpYJsVIEeW-P4Pvh3lDiA" name="Operation_4_finish" covered="_HsFw8MVEEeW-P4Pvh3lDiA" execution="_lrpYJcVIEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tmypwsVIEeW-P4Pvh3lDiA" name="visited_sender" covered="_h5yM4cVEEeW-P4Pvh3lDiA" message="_tmypwMVIEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tmypw8VIEeW-P4Pvh3lDiA" name="visited_receiver" covered="_bgrVwMVEEeW-P4Pvh3lDiA" message="_tmypwMVIEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_tmypxMVIEeW-P4Pvh3lDiA" name="Operation_2" covered="_bgrVwMVEEeW-P4Pvh3lDiA" finish="_tmypxcVIEeW-P4Pvh3lDiA" start="_tmypw8VIEeW-P4Pvh3lDiA" behavior="_tmypwcVIEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_tmypxcVIEeW-P4Pvh3lDiA" name="Operation_2_finish" covered="_bgrVwMVEEeW-P4Pvh3lDiA" execution="_tmypxMVIEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_h9Vas8VFEeW-P4Pvh3lDiA" name="count = 0_sender" covered="_h5yM4cVEEeW-P4Pvh3lDiA" message="_h9VascVFEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_h9VatMVFEeW-P4Pvh3lDiA" name="count = 0_receiver" covered="_h5yM4cVEEeW-P4Pvh3lDiA" message="_h9VascVFEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_h9VatcVFEeW-P4Pvh3lDiA" name="Operation_10" covered="_h5yM4cVEEeW-P4Pvh3lDiA" finish="_h9WBwMVFEeW-P4Pvh3lDiA" start="_h9VatMVFEeW-P4Pvh3lDiA" behavior="_h9VassVFEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_h9WBwMVFEeW-P4Pvh3lDiA" name="Operation_10_finish" covered="_h5yM4cVEEeW-P4Pvh3lDiA" execution="_h9VatcVFEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xODLsMVFEeW-P4Pvh3lDiA" name="store(state())_sender" covered="_h5yM4cVEEeW-P4Pvh3lDiA" message="_xOCkocVFEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xODLscVFEeW-P4Pvh3lDiA" name="store(state())_receiver" covered="_HsFw8MVEEeW-P4Pvh3lDiA" message="_xOCkocVFEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_xODLssVFEeW-P4Pvh3lDiA" name="Operation_3" covered="_HsFw8MVEEeW-P4Pvh3lDiA" finish="_xODLs8VFEeW-P4Pvh3lDiA" start="_xODLscVFEeW-P4Pvh3lDiA" behavior="_xOCkosVFEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_msNvNMVGEeW-P4Pvh3lDiA" name="state_sender" covered="_HsFw8MVEEeW-P4Pvh3lDiA" message="_msNvMcVGEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_msOWQMVGEeW-P4Pvh3lDiA" name="state_receiver" covered="_CJ3zocVGEeW-P4Pvh3lDiA" message="_msNvMcVGEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_msOWQsVGEeW-P4Pvh3lDiA" name="Operation_7" covered="_CJ3zocVGEeW-P4Pvh3lDiA" finish="_msOWQcVGEeW-P4Pvh3lDiA" start="_msOWQMVGEeW-P4Pvh3lDiA" behavior="_msNvMsVGEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_msOWQcVGEeW-P4Pvh3lDiA" name="return:myState_sender" covered="_CJ3zocVGEeW-P4Pvh3lDiA" message="_msNvM8VGEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_msOWQ8VGEeW-P4Pvh3lDiA" name="return:myState_receiver" covered="_HsFw8MVEEeW-P4Pvh3lDiA" message="_msNvM8VGEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_xODLs8VFEeW-P4Pvh3lDiA" name="Operation_3_finish" covered="_HsFw8MVEEeW-P4Pvh3lDiA" execution="_xODLssVFEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_026d48VHEeW-P4Pvh3lDiA" name="add_sender" covered="_h5yM4cVEEeW-P4Pvh3lDiA" message="_026d4MVHEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_026d5MVHEeW-P4Pvh3lDiA" name="add_receiver" covered="_RFPHEMVDEeW-P4Pvh3lDiA" message="_026d4MVHEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_026d5sVHEeW-P4Pvh3lDiA" name="Operation_5" covered="_RFPHEMVDEeW-P4Pvh3lDiA" finish="_026d5cVHEeW-P4Pvh3lDiA" start="_026d5MVHEeW-P4Pvh3lDiA" behavior="_026d4cVHEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hWXPZMVHEeW-P4Pvh3lDiA" name="state_sender" covered="_RFPHEMVDEeW-P4Pvh3lDiA" message="_hWXPYcVHEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hWXPZcVHEeW-P4Pvh3lDiA" name="state_receiver" covered="_CJ3zocVGEeW-P4Pvh3lDiA" message="_hWXPYcVHEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_hWXPZ8VHEeW-P4Pvh3lDiA" name="Operation_9" covered="_CJ3zocVGEeW-P4Pvh3lDiA" finish="_hWXPZsVHEeW-P4Pvh3lDiA" start="_hWXPZcVHEeW-P4Pvh3lDiA" behavior="_hWXPYsVHEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Yfc5FMVHEeW-P4Pvh3lDiA" name="location_sender" covered="_CJ3zocVGEeW-P4Pvh3lDiA" message="_Yfc5EcVHEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Yfc5FcVHEeW-P4Pvh3lDiA" name="location_receiver" covered="_CNX-IcVHEeW-P4Pvh3lDiA" message="_Yfc5EcVHEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Yfc5F8VHEeW-P4Pvh3lDiA" name="Operation_15" covered="_CNX-IcVHEeW-P4Pvh3lDiA" finish="_Yfc5FsVHEeW-P4Pvh3lDiA" start="_Yfc5FcVHEeW-P4Pvh3lDiA" behavior="_Yfc5EsVHEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Yfc5FsVHEeW-P4Pvh3lDiA" name="return:myLoc_sender" covered="_CNX-IcVHEeW-P4Pvh3lDiA" message="_Yfc5E8VHEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Yfc5GMVHEeW-P4Pvh3lDiA" name="return:myLoc_receiver" covered="_CJ3zocVGEeW-P4Pvh3lDiA" message="_Yfc5E8VHEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hWXPZsVHEeW-P4Pvh3lDiA" name="return:myState_sender" covered="_CJ3zocVGEeW-P4Pvh3lDiA" message="_hWXPY8VHEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hWXPaMVHEeW-P4Pvh3lDiA" name="return:myState_receiver" covered="_RFPHEMVDEeW-P4Pvh3lDiA" message="_hWXPY8VHEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_026d5cVHEeW-P4Pvh3lDiA" name="return: Boolean_sender" covered="_RFPHEMVDEeW-P4Pvh3lDiA" message="_026d4sVHEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_026d58VHEeW-P4Pvh3lDiA" name="return: Boolean_receiver" covered="_h5yM4cVEEeW-P4Pvh3lDiA" message="_026d4sVHEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_b2Kys8VGEeW-P4Pvh3lDiA" name="myState_sender" covered="_CJ3zocVGEeW-P4Pvh3lDiA" message="_b2KysMVGEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_b2KytMVGEeW-P4Pvh3lDiA" name="myState_receiver" message="_b2KysMVGEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_h9VascVFEeW-P4Pvh3lDiA" name="count = 0" messageSort="asynchCall" receiveEvent="_h9VatMVFEeW-P4Pvh3lDiA" sendEvent="_h9Vas8VFEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_xOCkocVFEeW-P4Pvh3lDiA" name="store(state())" messageSort="asynchCall" receiveEvent="_xODLscVFEeW-P4Pvh3lDiA" sendEvent="_xODLsMVFEeW-P4Pvh3lDiA" signature="_xOCkoMVFEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_b2KysMVGEeW-P4Pvh3lDiA" name="myState" receiveEvent="_b2KytMVGEeW-P4Pvh3lDiA" sendEvent="_b2Kys8VGEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_msNvMcVGEeW-P4Pvh3lDiA" name="state" receiveEvent="_msOWQMVGEeW-P4Pvh3lDiA" sendEvent="_msNvNMVGEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_msNvM8VGEeW-P4Pvh3lDiA" name="return:myState" messageSort="reply" receiveEvent="_msOWQ8VGEeW-P4Pvh3lDiA" sendEvent="_msOWQcVGEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_Yfc5EcVHEeW-P4Pvh3lDiA" name="location" receiveEvent="_Yfc5FcVHEeW-P4Pvh3lDiA" sendEvent="_Yfc5FMVHEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_Yfc5E8VHEeW-P4Pvh3lDiA" name="return:myLoc" messageSort="reply" receiveEvent="_Yfc5GMVHEeW-P4Pvh3lDiA" sendEvent="_Yfc5FsVHEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_hWXPYcVHEeW-P4Pvh3lDiA" name="state" receiveEvent="_hWXPZcVHEeW-P4Pvh3lDiA" sendEvent="_hWXPZMVHEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_hWXPY8VHEeW-P4Pvh3lDiA" name="return:myState" messageSort="reply" receiveEvent="_hWXPaMVHEeW-P4Pvh3lDiA" sendEvent="_hWXPZsVHEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_026d4MVHEeW-P4Pvh3lDiA" name="add" receiveEvent="_026d5MVHEeW-P4Pvh3lDiA" sendEvent="_026d48VHEeW-P4Pvh3lDiA" signature="_02520MVHEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_026d4sVHEeW-P4Pvh3lDiA" name="return: Boolean" messageSort="reply" receiveEvent="_026d58VHEeW-P4Pvh3lDiA" sendEvent="_026d5cVHEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_gEeUQMVIEeW-P4Pvh3lDiA" name="beenThere" messageSort="asynchCall" receiveEvent="_gEe7UsVIEeW-P4Pvh3lDiA" sendEvent="_gEe7UcVIEeW-P4Pvh3lDiA" signature="_gEcfEMVIEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_lrpYIcVIEeW-P4Pvh3lDiA" name="init" messageSort="asynchCall" receiveEvent="_lrpYJMVIEeW-P4Pvh3lDiA" sendEvent="_lrpYI8VIEeW-P4Pvh3lDiA" signature="_lrpYIMVIEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_tmypwMVIEeW-P4Pvh3lDiA" name="visited" messageSort="asynchCall" receiveEvent="_tmypw8VIEeW-P4Pvh3lDiA" sendEvent="_tmypwsVIEeW-P4Pvh3lDiA" signature="_tmyCsMVIEeW-P4Pvh3lDiA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_rvvw4MONEeWZ5sa5ki9kDQ" name="Class4"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_tLF7QMOSEeWZ5sa5ki9kDQ" name="ArrayList"/>
@@ -208,7 +287,17 @@
       </ownedParameter>
     </ownedOperation>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_pbEM8MOXEeWZ5sa5ki9kDQ" name="Set"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pbEM8MOXEeWZ5sa5ki9kDQ" name="Set">
+    <ownedOperation xmi:id="_07m4AMVEEeW-P4Pvh3lDiA" name="Operation_1"/>
+    <ownedOperation xmi:id="_B8WxgMVFEeW-P4Pvh3lDiA" name="Operation_2"/>
+    <ownedOperation xmi:id="_F_QUUMVHEeW-P4Pvh3lDiA" name="Operation_3"/>
+    <ownedOperation xmi:id="_efskQMVHEeW-P4Pvh3lDiA" name="Operation_4"/>
+    <ownedOperation xmi:id="_02520MVHEeW-P4Pvh3lDiA" name="Operation_5"/>
+    <ownedOperation xmi:id="_emxnMMVIEeW-P4Pvh3lDiA" name="Operation_6"/>
+    <ownedOperation xmi:id="_gEcfEMVIEeW-P4Pvh3lDiA" name="Operation_7"/>
+    <ownedOperation xmi:id="_O8UZIMVLEeW-P4Pvh3lDiA" name="Operation_8"/>
+    <ownedOperation xmi:id="_1_DN0MVLEeW-P4Pvh3lDiA" name="Operation_9"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Interface" xmi:id="_AXUbYMOaEeWZ5sa5ki9kDQ" name="MazeDisplay"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_meR8kMRkEeWZ5sa5ki9kDQ" name="IterativeWalker">
     <generalization xmi:id="_-upYQMSoEeWZ5sa5ki9kDQ" general="_yV6dgMOWEeWZ5sa5ki9kDQ"/>
@@ -635,5 +724,101 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5O640MSrEeWZ5sa5ki9kDQ"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5O7f4MSrEeWZ5sa5ki9kDQ" value="*"/>
     </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8cPp0MVCEeW-P4Pvh3lDiA" name="Class22"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_EPsikMVEEeW-P4Pvh3lDiA" name="SearchStrategy">
+    <ownedOperation xmi:id="_ONZFUMVFEeW-P4Pvh3lDiA" name="Operation_1"/>
+    <ownedOperation xmi:id="_r0XxQMVFEeW-P4Pvh3lDiA" name="Operation_2"/>
+    <ownedOperation xmi:id="_xOCkoMVFEeW-P4Pvh3lDiA" name="Operation_3"/>
+    <ownedOperation xmi:id="_lrpYIMVIEeW-P4Pvh3lDiA" name="Operation_4"/>
+    <ownedOperation xmi:id="_mi_IcMVLEeW-P4Pvh3lDiA" name="Operation_5"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_WAWgwMVEEeW-P4Pvh3lDiA" name="Stack">
+    <ownedOperation xmi:id="_atUJsMVFEeW-P4Pvh3lDiA" name="Operation_1"/>
+    <ownedOperation xmi:id="_tmyCsMVIEeW-P4Pvh3lDiA" name="Operation_2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_PO0wUMVJEeW-P4Pvh3lDiA" name="Scenario_1">
+    <ownedAttribute xmi:id="_UW-88MVJEeW-P4Pvh3lDiA" name="IterativeWalker" type="_meR8kMRkEeWZ5sa5ki9kDQ"/>
+    <ownedAttribute xmi:id="_Z5hYcMVJEeW-P4Pvh3lDiA" name="Direction" type="_bOmvQMOMEeWZ5sa5ki9kDQ"/>
+    <ownedAttribute xmi:id="_a4-DQMVJEeW-P4Pvh3lDiA" name="Set" type="_pbEM8MOXEeWZ5sa5ki9kDQ"/>
+    <ownedAttribute xmi:id="_hSZDcMVJEeW-P4Pvh3lDiA" name="WalkerState" type="_Rem_YMONEeWZ5sa5ki9kDQ"/>
+    <ownedAttribute xmi:id="_zSgZ8MVJEeW-P4Pvh3lDiA" name="GenericWalker" type="_MyAXQMOWEeWZ5sa5ki9kDQ"/>
+    <ownedAttribute xmi:id="_-JKlAMVKEeW-P4Pvh3lDiA" name="Maze" type="_C9XjgMONEeWZ5sa5ki9kDQ"/>
+    <ownedAttribute xmi:id="_gAzN0MVLEeW-P4Pvh3lDiA" name="SearchStrategy" type="_EPsikMVEEeW-P4Pvh3lDiA"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4sDRgMVJEeW-P4Pvh3lDiA" name="Operation_10"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__iryIcVJEeW-P4Pvh3lDiA" name="Operation_17"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HsXPAsVKEeW-P4Pvh3lDiA" name="Operation_8"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zn1UQcVKEeW-P4Pvh3lDiA" name="Operation_11"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__RhUMMVKEeW-P4Pvh3lDiA" name="Operation_6"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_O8VAMcVLEeW-P4Pvh3lDiA" name="Operation_8"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi_IcsVLEeW-P4Pvh3lDiA" name="Operation_5"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_t3YjIsVLEeW-P4Pvh3lDiA" name="Operation_18"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1_DN0sVLEeW-P4Pvh3lDiA" name="Operation_9"/>
+    <lifeline xmi:id="_UW-88cVJEeW-P4Pvh3lDiA" name="IterativeWalker" represents="_UW-88MVJEeW-P4Pvh3lDiA" coveredBy="_4sDRgsVJEeW-P4Pvh3lDiA _4sDRhsVJEeW-P4Pvh3lDiA _zn1UQ8VKEeW-P4Pvh3lDiA _zn1UR8VKEeW-P4Pvh3lDiA _O8VAM8VLEeW-P4Pvh3lDiA _O8VAN8VLEeW-P4Pvh3lDiA _mi_Ic8VLEeW-P4Pvh3lDiA _1_DN1MVLEeW-P4Pvh3lDiA _1_DN2MVLEeW-P4Pvh3lDiA"/>
+    <lifeline xmi:id="_gAzN0cVLEeW-P4Pvh3lDiA" name="SearchStrategy" represents="_gAzN0MVLEeW-P4Pvh3lDiA" coveredBy="_mi_IdMVLEeW-P4Pvh3lDiA _mi_IdcVLEeW-P4Pvh3lDiA _mi_IdsVLEeW-P4Pvh3lDiA _t3YjI8VLEeW-P4Pvh3lDiA"/>
+    <lifeline xmi:id="_zSgZ8cVJEeW-P4Pvh3lDiA" name="GenericWalker" represents="_zSgZ8MVJEeW-P4Pvh3lDiA" coveredBy="_4sDRg8VJEeW-P4Pvh3lDiA _4sDRhcVJEeW-P4Pvh3lDiA _4sDRhMVJEeW-P4Pvh3lDiA __iryI8VJEeW-P4Pvh3lDiA __iryJ8VJEeW-P4Pvh3lDiA _zn1URMVKEeW-P4Pvh3lDiA _zn1URsVKEeW-P4Pvh3lDiA _zn1URcVKEeW-P4Pvh3lDiA __RhUMsVKEeW-P4Pvh3lDiA __RhUNsVKEeW-P4Pvh3lDiA"/>
+    <lifeline xmi:id="_hSZDccVJEeW-P4Pvh3lDiA" name="WalkerState" represents="_hSZDcMVJEeW-P4Pvh3lDiA" coveredBy="__iryJMVJEeW-P4Pvh3lDiA __iryJsVJEeW-P4Pvh3lDiA __iryJcVJEeW-P4Pvh3lDiA _HsXPBMVKEeW-P4Pvh3lDiA _HsXPCMVKEeW-P4Pvh3lDiA _t3YjJMVLEeW-P4Pvh3lDiA _t3YjJcVLEeW-P4Pvh3lDiA _t3YjJsVLEeW-P4Pvh3lDiA"/>
+    <lifeline xmi:id="_Z5hYccVJEeW-P4Pvh3lDiA" name="Direction" represents="_Z5hYcMVJEeW-P4Pvh3lDiA" coveredBy="_HsXPBcVKEeW-P4Pvh3lDiA _HsXPB8VKEeW-P4Pvh3lDiA _HsXPBsVKEeW-P4Pvh3lDiA"/>
+    <lifeline xmi:id="_dkspsMVJEeW-P4Pvh3lDiA" name="beenThere" represents="_GcPX4MRuEeWZ5sa5ki9kDQ" coveredBy="_O8VANMVLEeW-P4Pvh3lDiA _O8VANsVLEeW-P4Pvh3lDiA _O8VANcVLEeW-P4Pvh3lDiA _1_DN1cVLEeW-P4Pvh3lDiA _1_DN18VLEeW-P4Pvh3lDiA _1_DN1sVLEeW-P4Pvh3lDiA"/>
+    <lifeline xmi:id="_-JKlAcVKEeW-P4Pvh3lDiA" name="Maze" represents="_-JKlAMVKEeW-P4Pvh3lDiA" coveredBy="__RhUM8VKEeW-P4Pvh3lDiA __RhUNcVKEeW-P4Pvh3lDiA __RhUNMVKEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4sDRgsVJEeW-P4Pvh3lDiA" name="state_sender" covered="_UW-88cVJEeW-P4Pvh3lDiA" message="_4sCqccVJEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4sDRg8VJEeW-P4Pvh3lDiA" name="state_receiver" covered="_zSgZ8cVJEeW-P4Pvh3lDiA" message="_4sCqccVJEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_4sDRhcVJEeW-P4Pvh3lDiA" name="Operation_10" covered="_zSgZ8cVJEeW-P4Pvh3lDiA" finish="_4sDRhMVJEeW-P4Pvh3lDiA" start="_4sDRg8VJEeW-P4Pvh3lDiA" behavior="_4sDRgMVJEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__iryI8VJEeW-P4Pvh3lDiA" name="neighborTo(dir)_sender" covered="_zSgZ8cVJEeW-P4Pvh3lDiA" message="__iryIMVJEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__iryJMVJEeW-P4Pvh3lDiA" name="neighborTo(dir)_receiver" covered="_hSZDccVJEeW-P4Pvh3lDiA" message="__iryIMVJEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="__iryJsVJEeW-P4Pvh3lDiA" name="Operation_17" covered="_hSZDccVJEeW-P4Pvh3lDiA" finish="__iryJcVJEeW-P4Pvh3lDiA" start="__iryJMVJEeW-P4Pvh3lDiA" behavior="__iryIcVJEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HsXPBMVKEeW-P4Pvh3lDiA" name="equals_sender" covered="_hSZDccVJEeW-P4Pvh3lDiA" message="_HsXPAcVKEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HsXPBcVKEeW-P4Pvh3lDiA" name="equals_receiver" covered="_Z5hYccVJEeW-P4Pvh3lDiA" message="_HsXPAcVKEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_HsXPB8VKEeW-P4Pvh3lDiA" name="Operation_8" covered="_Z5hYccVJEeW-P4Pvh3lDiA" finish="_HsXPBsVKEeW-P4Pvh3lDiA" start="_HsXPBcVKEeW-P4Pvh3lDiA" behavior="_HsXPAsVKEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HsXPBsVKEeW-P4Pvh3lDiA" name="return:Boolean_sender" covered="_Z5hYccVJEeW-P4Pvh3lDiA" message="_HsXPA8VKEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HsXPCMVKEeW-P4Pvh3lDiA" name="return:Boolean_receiver" covered="_hSZDccVJEeW-P4Pvh3lDiA" message="_HsXPA8VKEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__iryJcVJEeW-P4Pvh3lDiA" name="return:Locaton_sender" covered="_hSZDccVJEeW-P4Pvh3lDiA" message="__iryIsVJEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__iryJ8VJEeW-P4Pvh3lDiA" name="return:Locaton_receiver" covered="_zSgZ8cVJEeW-P4Pvh3lDiA" message="__iryIsVJEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4sDRhMVJEeW-P4Pvh3lDiA" name="return:myState_sender" covered="_zSgZ8cVJEeW-P4Pvh3lDiA" message="_4sDRgcVJEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4sDRhsVJEeW-P4Pvh3lDiA" name="return:myState_receiver" covered="_UW-88cVJEeW-P4Pvh3lDiA" message="_4sDRgcVJEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zn1UQ8VKEeW-P4Pvh3lDiA" name="maze_sender" covered="_UW-88cVJEeW-P4Pvh3lDiA" message="_zn1UQMVKEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zn1URMVKEeW-P4Pvh3lDiA" name="maze_receiver" covered="_zSgZ8cVJEeW-P4Pvh3lDiA" message="_zn1UQMVKEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_zn1URsVKEeW-P4Pvh3lDiA" name="Operation_11" covered="_zSgZ8cVJEeW-P4Pvh3lDiA" finish="_zn1URcVKEeW-P4Pvh3lDiA" start="_zn1URMVKEeW-P4Pvh3lDiA" behavior="_zn1UQcVKEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__RhUMsVKEeW-P4Pvh3lDiA" name="isWall_sender" covered="_zSgZ8cVJEeW-P4Pvh3lDiA" message="__RgtIcVKEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__RhUM8VKEeW-P4Pvh3lDiA" name="isWall_receiver" covered="_-JKlAcVKEeW-P4Pvh3lDiA" message="__RgtIcVKEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="__RhUNcVKEeW-P4Pvh3lDiA" name="Operation_6" covered="_-JKlAcVKEeW-P4Pvh3lDiA" finish="__RhUNMVKEeW-P4Pvh3lDiA" start="__RhUM8VKEeW-P4Pvh3lDiA" behavior="__RhUMMVKEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__RhUNMVKEeW-P4Pvh3lDiA" name="return:Boolean_sender" covered="_-JKlAcVKEeW-P4Pvh3lDiA" message="__RhUMcVKEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__RhUNsVKEeW-P4Pvh3lDiA" name="return:Boolean_receiver" covered="_zSgZ8cVJEeW-P4Pvh3lDiA" message="__RhUMcVKEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zn1URcVKEeW-P4Pvh3lDiA" name="return:myMaze_sender" covered="_zSgZ8cVJEeW-P4Pvh3lDiA" message="_zn1UQsVKEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zn1UR8VKEeW-P4Pvh3lDiA" name="return:myMaze_receiver" covered="_UW-88cVJEeW-P4Pvh3lDiA" message="_zn1UQsVKEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O8VAM8VLEeW-P4Pvh3lDiA" name="contains_sender" covered="_UW-88cVJEeW-P4Pvh3lDiA" message="_O8VAMMVLEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O8VANMVLEeW-P4Pvh3lDiA" name="contains_receiver" covered="_dkspsMVJEeW-P4Pvh3lDiA" message="_O8VAMMVLEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_O8VANsVLEeW-P4Pvh3lDiA" name="Operation_8" covered="_dkspsMVJEeW-P4Pvh3lDiA" finish="_O8VANcVLEeW-P4Pvh3lDiA" start="_O8VANMVLEeW-P4Pvh3lDiA" behavior="_O8VAMcVLEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O8VANcVLEeW-P4Pvh3lDiA" name="return: Boolean_sender" covered="_dkspsMVJEeW-P4Pvh3lDiA" message="_O8VAMsVLEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O8VAN8VLEeW-P4Pvh3lDiA" name="return: Boolean_receiver" covered="_UW-88cVJEeW-P4Pvh3lDiA" message="_O8VAMsVLEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mi_Ic8VLEeW-P4Pvh3lDiA" name="store_sender" covered="_UW-88cVJEeW-P4Pvh3lDiA" message="_mi_IccVLEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mi_IdMVLEeW-P4Pvh3lDiA" name="store_receiver" covered="_gAzN0cVLEeW-P4Pvh3lDiA" message="_mi_IccVLEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_mi_IdcVLEeW-P4Pvh3lDiA" name="Operation_5" covered="_gAzN0cVLEeW-P4Pvh3lDiA" finish="_mi_IdsVLEeW-P4Pvh3lDiA" start="_mi_IdMVLEeW-P4Pvh3lDiA" behavior="_mi_IcsVLEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_t3YjI8VLEeW-P4Pvh3lDiA" name="new WalkerState(nextLoc,dir)_sender" covered="_gAzN0cVLEeW-P4Pvh3lDiA" message="_t3YjIcVLEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_t3YjJMVLEeW-P4Pvh3lDiA" name="new WalkerState(nextLoc,dir)_receiver" covered="_hSZDccVJEeW-P4Pvh3lDiA" message="_t3YjIcVLEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_t3YjJcVLEeW-P4Pvh3lDiA" name="Operation_18" covered="_hSZDccVJEeW-P4Pvh3lDiA" finish="_t3YjJsVLEeW-P4Pvh3lDiA" start="_t3YjJMVLEeW-P4Pvh3lDiA" behavior="_t3YjIsVLEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_t3YjJsVLEeW-P4Pvh3lDiA" name="Operation_18_finish" covered="_hSZDccVJEeW-P4Pvh3lDiA" execution="_t3YjJcVLEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_mi_IdsVLEeW-P4Pvh3lDiA" name="Operation_5_finish" covered="_gAzN0cVLEeW-P4Pvh3lDiA" execution="_mi_IdcVLEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1_DN1MVLEeW-P4Pvh3lDiA" name="add_sender" covered="_UW-88cVJEeW-P4Pvh3lDiA" message="_1_DN0cVLEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1_DN1cVLEeW-P4Pvh3lDiA" name="add_receiver" covered="_dkspsMVJEeW-P4Pvh3lDiA" message="_1_DN0cVLEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_1_DN18VLEeW-P4Pvh3lDiA" name="Operation_9" covered="_dkspsMVJEeW-P4Pvh3lDiA" finish="_1_DN1sVLEeW-P4Pvh3lDiA" start="_1_DN1cVLEeW-P4Pvh3lDiA" behavior="_1_DN0sVLEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1_DN1sVLEeW-P4Pvh3lDiA" name="return:Boolean_sender" covered="_dkspsMVJEeW-P4Pvh3lDiA" message="_1_DN08VLEeW-P4Pvh3lDiA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1_DN2MVLEeW-P4Pvh3lDiA" name="return:Boolean_receiver" covered="_UW-88cVJEeW-P4Pvh3lDiA" message="_1_DN08VLEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_4sCqccVJEeW-P4Pvh3lDiA" name="state" receiveEvent="_4sDRg8VJEeW-P4Pvh3lDiA" sendEvent="_4sDRgsVJEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_4sDRgcVJEeW-P4Pvh3lDiA" name="return:myState" messageSort="reply" receiveEvent="_4sDRhsVJEeW-P4Pvh3lDiA" sendEvent="_4sDRhMVJEeW-P4Pvh3lDiA"/>
+    <message xmi:id="__iryIMVJEeW-P4Pvh3lDiA" name="neighborTo(dir)" receiveEvent="__iryJMVJEeW-P4Pvh3lDiA" sendEvent="__iryI8VJEeW-P4Pvh3lDiA"/>
+    <message xmi:id="__iryIsVJEeW-P4Pvh3lDiA" name="return:Locaton" messageSort="reply" receiveEvent="__iryJ8VJEeW-P4Pvh3lDiA" sendEvent="__iryJcVJEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_HsXPAcVKEeW-P4Pvh3lDiA" name="equals" receiveEvent="_HsXPBcVKEeW-P4Pvh3lDiA" sendEvent="_HsXPBMVKEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_HsXPA8VKEeW-P4Pvh3lDiA" name="return:Boolean" messageSort="reply" receiveEvent="_HsXPCMVKEeW-P4Pvh3lDiA" sendEvent="_HsXPBsVKEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_zn1UQMVKEeW-P4Pvh3lDiA" name="maze" receiveEvent="_zn1URMVKEeW-P4Pvh3lDiA" sendEvent="_zn1UQ8VKEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_zn1UQsVKEeW-P4Pvh3lDiA" name="return:myMaze" messageSort="reply" receiveEvent="_zn1UR8VKEeW-P4Pvh3lDiA" sendEvent="_zn1URcVKEeW-P4Pvh3lDiA"/>
+    <message xmi:id="__RgtIcVKEeW-P4Pvh3lDiA" name="isWall" receiveEvent="__RhUM8VKEeW-P4Pvh3lDiA" sendEvent="__RhUMsVKEeW-P4Pvh3lDiA"/>
+    <message xmi:id="__RhUMcVKEeW-P4Pvh3lDiA" name="return:Boolean" messageSort="reply" receiveEvent="__RhUNsVKEeW-P4Pvh3lDiA" sendEvent="__RhUNMVKEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_O8VAMMVLEeW-P4Pvh3lDiA" name="contains" receiveEvent="_O8VANMVLEeW-P4Pvh3lDiA" sendEvent="_O8VAM8VLEeW-P4Pvh3lDiA" signature="_O8UZIMVLEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_O8VAMsVLEeW-P4Pvh3lDiA" name="return: Boolean" messageSort="reply" receiveEvent="_O8VAN8VLEeW-P4Pvh3lDiA" sendEvent="_O8VANcVLEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_mi_IccVLEeW-P4Pvh3lDiA" name="store" messageSort="asynchCall" receiveEvent="_mi_IdMVLEeW-P4Pvh3lDiA" sendEvent="_mi_Ic8VLEeW-P4Pvh3lDiA" signature="_mi_IcMVLEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_t3YjIcVLEeW-P4Pvh3lDiA" name="new WalkerState(nextLoc,dir)" messageSort="asynchCall" receiveEvent="_t3YjJMVLEeW-P4Pvh3lDiA" sendEvent="_t3YjI8VLEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_1_DN0cVLEeW-P4Pvh3lDiA" name="add" receiveEvent="_1_DN1cVLEeW-P4Pvh3lDiA" sendEvent="_1_DN1MVLEeW-P4Pvh3lDiA" signature="_1_DN0MVLEeW-P4Pvh3lDiA"/>
+    <message xmi:id="_1_DN08VLEeW-P4Pvh3lDiA" name="return:Boolean" messageSort="reply" receiveEvent="_1_DN2MVLEeW-P4Pvh3lDiA" sendEvent="_1_DN1sVLEeW-P4Pvh3lDiA"/>
   </packagedElement>
 </uml:Model>
